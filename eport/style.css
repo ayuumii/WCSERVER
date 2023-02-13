@@ -7,16 +7,16 @@
     position:relative;
     width: 100%;
     height:100vh;
-    background: #eff4fd;
+    background: aliceblue;
 }
 .body{
     background-image: url(header.png);
 }
 nav{
     display: flex;
-    width: 50%;
+    width: 35%;
     margin:auto;
-    padding: 20px 0;
+    padding: 40px 0;
     align-items: center;
     justify-content: space-between;
     background-color:aliceblue ;
@@ -37,7 +37,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:blue;
+    color:red;
 }
 
 .about{
@@ -101,7 +101,6 @@ span{
     position:relative;
     width: 100%;
     height:100vh;
-    background:ghostwhite;
 }
 
 .projects{
@@ -137,16 +136,18 @@ span{
   }
   
   .box {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: relative;
-    margin: 0 10px;
+    margin: 0 20px;
   }
   
   .box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: #000;
+    border-radius: 20px;
   }
   
   .description {
@@ -164,3 +165,27 @@ span{
   .box:hover .description {
     opacity: 1;
   }
+.skills {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content:baseline;
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.skills img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.h1 {
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 50px;
+   margin-top: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+}
+.projects h1 {
+    padding-top: 30px;
+}
